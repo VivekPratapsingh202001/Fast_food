@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_of_fast_food_item"
+        android:textSize="30sp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"/>
+
+    <CheckBox
+        android:id="@+id/chowmine"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="80dp"
+        android:text="chowmin-Rs.70"
+        android:textColor="#aaec0c0c"
+        android:onClick="chowmin"
+        android:textSize="25dp" />
+
+    <CheckBox
+
+        android:id="@+id/Pizza"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="138dp"
+        android:text="Pizza-Rs.110"
+        android:textColor="#aaf40c3a"
+        android:onClick="Pizza"
+        android:textSize="25dp" />
+
+
+    <CheckBox
+        android:id="@+id/hotdog"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="194dp"
+        android:text="Hotdog-Rs.50"
+        android:textColor="#aad12340"
+        android:onClick="Hotdog"
+        android:textSize="25dp" />
+
+    <CheckBox
+        android:id="@+id/manchurian"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:text="Manchurian-Rs.90"
+        android:textColor="#aacc1c12"
+        android:onClick="manchurian"
+        android:textSize="25dp" />
+
+    <CheckBox
+
+        android:id="@+id/Pasta"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="200dp"
+        android:text="Hotdog-Rs.100"
+        android:textColor="#aacc1c12"
+        android:onClick="Pasta"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="130dp"
+        android:onClick="order"
+        android:textStyle="bold"
+        android:text="Order"
+        />
+</RelativeLayout>
